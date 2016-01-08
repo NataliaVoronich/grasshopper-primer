@@ -9,31 +9,35 @@ padding: 15px;
 .test img{float:none}
 
 </style>
-##About This Primer
+##О пособии
 
-###Authors
+###АВТОРЫ
 
 
 ![IMAGE](images/akos.png)
 #####Gil Akos, Mode Lab
-Gil Akos is a founding partner and Director of Technology at Mode Lab, a
-multidisciplinary design consultancy specializing in technology-driven process
-innovation. He brings diverse professional experience, technical expertise in
-digital platforms, and a passion for generative design to the service model of the
-studio. His personal interests surround the relationship between simulation and
-materialization and ways by which this connection can be made tangible.<br>
+Гил Акос - основатель и Технологический директор в Mode Lab, 
+мультидисциплинарный консультант по проектированию, специализирующийся
+в технологически-продвинутых инновационных процессах. Он привнес 
+разнообразный профессиональный опыт, техническую экспертизу в 
+цифровых платформах и страсть к генеративному проектированию в сервисную
+модель студии. Его личные интересы вращаются вокруг взаимоотношений 
+между симуляцией и материализацией и способами, благодаря которым
+эта связь может быть сделана ощутимой.<br>
 http://modelab.is<br>
 http://modelab.is/education
 
 
 ![IMAGE](images/parsons.png)
 #####Ronnie Parsons, Mode Lab
-Ronnie Parsons is a founding partner and Director of Education at Mode Lab, a
-multidisciplinary design consultancy specializing in technology-driven process
-innovation. At Mode Lab, Ronnie identifies new ways to connect and configure
-client workflows by strategically aligning product vision with UX-centered
-technology platforms. Ronnie’s expertise resides in the areas of advanced
-computational modeling, instructional design, and research and development.<br>
+Рони Парсонс - основатель и директор по Образованию в Mode Lab, 
+мультидисциплинарный консультант по проектированию, специализирующийся 
+в технологически-продвинутых инновационных процессах. В Mode Lab, 
+Рони находит новые способы соединить и сформировать организацию
+рабочего процесса клиента стратегическим нацеливанием образа
+продукта с UX-ориентированными технологическими платформами. 
+Экспертиза Рони остается в области продвинутого вычислительного 
+моделирования, инструктивного проектирования, исследования и развития.<br>
 http://modelab.is<br>
 http://modelab.is/education
 
@@ -49,63 +53,62 @@ Kimberly Parsons<br>
 Roberto Godinez<br>
 Christopher Morse</ul>
 
-###Contributors
+###СОАВТОРЫ
 
 
 ![IMAGE](images/payne.png)
 #####Andrew Payne, Principal, Lift Architects
-Andrew Payne is a registered architect who founded LIFT architects in 2007. Andrew’s work explores embedded computation, intelligent buildings,
-and generative design and he has published papers and taught workshops
-throughout North America and Europe. In 2010, Andrew and Jason K. Johnson
-published Firefly - a comprehensive software plug-in dedicated to bridging the
-gap between Grasshopper, the Arduino microcontroller, the internet, audio/
-visual tools, and more.<br>
+Эндрю Пейн - зарегистрированный архитектор, основал LIFT architects в 2007. 
+Эндрю исследует встроенные вычисления, умные здания и генеративное проектирование. 
+Он публикует свои исследования и проводит воркшопы по всей Северной Америке и в 
+Европе. В 2010, Энрю и Джейсон К. Джонсон опубликовали Firefly - полный плагин, 
+посвященный созданию связи между Grasshopper, микроконтроллером Ардуино, интернетом, аудио/видео инструментами, и прочее.<br>
 http://www.liftarchitects.com/
 
 ---
 
-This primer provides a comprehensive guide to the most current Grasshopper build, version 0.90076, highlighting what we feel are some of the most exciting feature updates. It is our goal that this primer will serve as a field guide to new and existing users looking to navigate the ins and outs of using Grasshopper in their creative practice.
+Это пособие предоставляет полный гид для наиболее современной версии Grasshopper 0.90076, подчеркивая, как нам кажется, обновления самых восхитительных функций. Наша цель, чтобы это пособие служило гидом для новичков и давних пользователей, направленным на изучение азов использования Grasshopper в их творческой деятельности.
 
 ![IMAGE](images/modelab_logo.png)
-Mode Lab is a multidisciplinary design consultancy specializing in technology-driven process innovation.
-From its inception, Mode Lab has been a space for experimenting with the methods and technology used to design and make the world around us. We are compelled to understand and improve upon the process of materializing ideas – this is a journey we undertake in collaboration with our clients.
+Mode Lab - это мультидисциплинарная компания, консультирующая по проектированию и специализирующаяся на технологически-продвинутых инновационных процессах.
+С самого начала, Mode Lab представляло собой такое пространство для экспериментов с методами и технологиями, которые используются для проектирования и создания мира вокруг нас. Мы нацелены на понимание и улучшение процесса материализации идей - это путешествие, которое мы предпринимает совместно с нашими заказчиками.
 http://modelab.is
 
 ![IMAGE](images/modelab_education.png)
-Our Mode Lab Education brand provides blended learning solutions for consumers and businesses looking to get ahead. We design and develop targeted learning experiences that keep the learner at the center of every technique and design method we share with our community.
+Наш Образовательный бренд предоставляет смешанные образовательные решения для потребителей и компаний, смотрящих вперед в будущее. Мы составляем и развиваем целевые обучающие опыты, которые держат обучающихся в центре каждой техники и методов проектирования, которыми мы делимся с нашим сообществом.
 http://modelab.is/education
 
 ![IMAGE](images/rhino.png)
-McNeel is a software development company with worldwide sales, support, and training. Founded in 1980, McNeel is a privately-held, employee-owned company with sales and support offices and affiliates in Seattle, Boston, Miami, Buenos Aires, Barcelona, Rome, Tokyo, Taipei, Seoul, Kuala Lumpur, and Shanghai with more than 700 resellers, distributors, OEMs, and training centers around the world.
+McNeel - компания по развитию ПО, с продажами, тех.поддержкой и тренингами по всему миру. Компания McNeel основана в 1980 как частная компания, руководство которой лежит на сотрудниках. Компания с офисами продаж и тех.поддержкой, с филиалами в Сиэтле, Бостоне, Майами, Буэнос Айресе, Барселоне, Риме, Токио, Тайпее, Сеуле, Куала Лумпур и Шанхае и с более чем 700 реселлерами, дистрибьюторами, изготовителями и обучающими центрами по всему миру.
 http://www.en.na.mcneel.com/
 
 ![IMAGE](images/grasshopper.png)
-For designers who are exploring new shapes using generative algorithms, Grasshopper is a graphical algorithm editor tightly integrated with Rhino’s 3D modeling tools. Unlike RhinoScript, Grasshopper requires no knowledge of programming or scripting, but still allows designers to build form generators from the simple to the awe-inspiring.
+Для проектировщиков, исследующих новые формы, используя генеративные алгоритмы, Grasshopper - это редактор графических алгоритмов, тесно связанный с 3D моделирующими инструментами Rhino. В отличие от RhinoScript, Grasshopper не требует навыков программирования и при этом позволяет проектировщикам создавать формы от самых простых до захватывающих дух.
 http://www.grasshopper3d.com/
 
 
 
-###LICENSING INFORMATION
-The Grasshopper Primer is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license. The full text of this license is available here: http://creativecommons.org/licenses/by-nc-sa/3.0/us/legalcode
+###ИНФОРМАЦИЯ ПО ЛИЦЕНЗИИ
+Пособие по Grasshopper - лицензировано в Creative Commons Attribution - NonCommercial-ShareAlike 3.0 Unported license. Полный текст этой лицензии доступен по этому адресу: http://creativecommons.org/licenses/by-nc-sa/3.0/us/legalcode
 
-Under this license, you are free:
+В рамках данной лицензии, вы можете:
 
-**TO SHARE** - to copy, distribute and transmit the work
+**ДЕЛИТЬСЯ** - копировать, распространять и передавать работу
 
-**TO REMIX** - to adapt the work
+**ДЕЛАТЬ РЕМИКС** - адаптировать работу
 
-Under the following conditions:
+В соответствии со следующими условиями:
 
-**ATTRIBUTION** - You must attribute the work in the manner specified as “Mode Lab’s Attribution” below. You cannot attribute the work in any manner that suggests that Mode Lab endorses you or your use of the work.
+**ССЫЛКА НА ИСТОЧНИК** - Вы должны ссылаться на данную работу следующим образом "Mode Lab's Attribution". Вы не можете ссылаться на работу любым образом, который подразумевает, что Mode Lab поддерживают вас или одобряют ваше использование работы.
 
-**NONCOMMERCIAL** - You may not use this work for commercial purposes
+**НЕКОММЕРЧЕСКОЕ ИСПОЛЬЗОВАНИЕ** - Вы не можете использовать данную работу в коммерческих целях
 
-**SHARE ALIKE** - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.
+**УЧАСТВОВАТЬ И ДЕЛИТЬСЯ** - если вы видоизменили, трансформировали или создали что-то на основе данной работы, вы можете распространять конечную работу только под такой же лицензией Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.
 
-Please see the full text of this license (http://creativecommons.org/licenses/by-nc-sa/3.0/us/legalcode) to view all rights and restrictions associated with it.
+Полный текст лицензии можно найти здесь (http://creativecommons.org/licenses/by-nc-sa/3.0/us/legalcode) для ознакомления со всеми правами и ограничениями, связанными с ними.
 
 **MODE LAB’S ATTRIBUTION:**
-©2015 Studio Mode, LLC. All rights reserved. http://modelab.is
+©2015 Studio Mode, LLC. Все права защищены. http://modelab.is
 
-**TRANSLATIONS:**
-If you create translated versions of this Primer (in compliance with this license), please notify Mode Lab at hello@modelab.is. Mode Lab may choose to distribute and/or link to such translated versions (either as-is, or as further modified by Mode Lab)
+**ПЕРЕВОД НА ДРУГИЕ ЯЗЫКИ:**
+Если вы перевели данное пособие (в соответствии с данной лицензией), пожалуйста, напишите нам об этом в Mode Lab по адресу hello@modelab.is. может выбрать, распространить и/или дать ссылку на эту переведенную версию (либо "как есть", либо с корретировками Mode Lab)
